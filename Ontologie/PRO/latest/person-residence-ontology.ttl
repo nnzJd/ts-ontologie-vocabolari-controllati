@@ -52,7 +52,7 @@
                                      dct:accrualPeriodicity "http://publications.europa.eu/resource/authority/frequency/IRREG"^^xsd:anyURI ;
                                      dct:description "Questa è l'ontologia della popolazione residente registrata in anagrafe."@it ;
                                      admsapit:hasFormalityLevel " ---" ;
-                                     dct:rightsHolder "https://www.interno.gov.it/it"^^xsd:anyURI ;
+                                     dct:rightsHolder <https://www.interno.gov.it/it>;
                                      owl:versionInfo "Versione 1.0"@it ;
                                      admsapit:last "https//w3id.org/italia/onto/PRO/1.0"^^xsd:anyURI ;
                                      rdfs:label "Ontologia della popolazione residente anagrafica."@it ;
@@ -68,9 +68,11 @@
                                      admsapit:hasSemanticAssetDistribution "https://w3id.org/italia/data/distribution/CPVAPIT-RDF-TURTLE"^^xsd:anyURI .
 
 #################################################################
-#    Datatypes
+#    Datatypes
+
 #################################################################
-
+
+
 ###  http://www.w3.org/2001/XMLSchema#dateTime
 xsd:dateTime rdf:type rdfs:Datatype .
 
@@ -84,9 +86,11 @@ xsd:string rdf:type rdfs:Datatype .
 
 
 #################################################################
-#    Object Properties
+#    Object Properties
+
 #################################################################
-
+
+
 ###  https://w3id.org/italia/onto/PRO/appartieneAFamAnagrafica
 pro:appartieneAFamAnagrafica rdf:type owl:ObjectProperty ,
                                       owl:InverseFunctionalProperty ;
@@ -304,9 +308,11 @@ pro:èAttualmentePrevalentementeCittadino rdf:type owl:ObjectProperty ;
 
 
 #################################################################
-#    Data properties
+#    Data properties
+
 #################################################################
-
+
+
 ###  https://w3id.org/italia/onto/PRO/codiceConvivenza
 pro:codiceConvivenza rdf:type owl:DatatypeProperty ,
                               owl:FunctionalProperty ;
@@ -489,9 +495,11 @@ pro:numeroComponentiFamigliaAnagrafica rdf:type owl:DatatypeProperty ,
 
 
 #################################################################
-#    Classes
+#    Classes
+
 #################################################################
-
+
+
 ###  https://w3id.org/italia/onto/CLV/Address
 CLV:Address rdf:type owl:Class ;
             rdfs:label "Indirizzo"@it .
@@ -862,9 +870,11 @@ pro:TipoRelazioneParentale rdf:type owl:Class ;
 
 
 #################################################################
-#    Individuals
+#    Individuals
+
 #################################################################
-
+
+
 ###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/marital-status-types/1
 cv-mst:1 rdf:type owl:NamedIndividual ,
                   pro:StatoCivile ;
@@ -1124,9 +1134,11 @@ cv-rorem:9 rdf:type owl:NamedIndividual ,
 
 
 #################################################################
-#    General axioms
+#    General axioms
+
 #################################################################
-
+
+
 [ rdf:type owl:Class ;
   owl:unionOf ( pro:ConvivenzaAnagrafica
                 pro:FamigliaAnagrafica
