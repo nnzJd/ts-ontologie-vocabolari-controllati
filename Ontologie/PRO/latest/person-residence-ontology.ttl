@@ -48,6 +48,7 @@
                                      admsapit:hasContributor " ---" ;
                                      dct:creator "https://w3id.org/italia/data/public-organization/ISTAT"^^xsd:anyURI ;
                                      dct:issued "2022-12-15"^^xsd:dateTimeStamp ;
+                                     dct:modified "2022-12-15" ;
                                      admsapit:target "Pubbliche Amministrazioni" ;
                                      dct:accrualPeriodicity "http://publications.europa.eu/resource/authority/frequency/IRREG"^^xsd:anyURI ;
                                      dct:description "Questa è l'ontologia della popolazione residente registrata in anagrafe."@it ;
