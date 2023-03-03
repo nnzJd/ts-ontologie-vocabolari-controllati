@@ -45,6 +45,7 @@
                                      dct:publisher "---" ;
                                      dct:title "PRO_IT - Registered Person Ontology"@en ;
                                      rdfs:label "Registered Person Ontology"@en ;
+                                     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TECH> ;
                                      admsapit:hasContributor " ---" ;
                                      dct:creator "https://w3id.org/italia/data/public-organization/ISTAT"^^xsd:anyURI ;
                                      dct:issued "2022-12-15"^^xsd:dateTimeStamp ;
