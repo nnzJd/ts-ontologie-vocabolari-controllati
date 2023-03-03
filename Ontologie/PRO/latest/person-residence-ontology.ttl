@@ -50,12 +50,12 @@
                                      dct:issued "2022-12-15"^^xsd:dateTimeStamp ;
                                      dct:modified "2022-12-15" ;
                                      admsapit:target "Pubbliche Amministrazioni" ;
-                                     dct:accrualPeriodicity "http://publications.europa.eu/resource/authority/frequency/IRREG"^^xsd:anyURI ;
+                                     dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG>;
                                      dct:description "Questa è l'ontologia della popolazione residente registrata in anagrafe."@it ;
                                      admsapit:hasFormalityLevel " ---" ;
                                      dct:rightsHolder <https://www.interno.gov.it/it>;
                                      owl:versionInfo "Versione 1.0"@it ;
-                                     admsapit:last "https//w3id.org/italia/onto/PRO/1.0"^^xsd:anyURI ;
+                                     admsapit:last <https//w3id.org/italia/onto/PRO/1.0> ;
                                      rdfs:label "Ontologia della popolazione residente anagrafica."@it ;
                                      dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
                                      rdfs:comment "Questa è l'ontologia della Popolazione Registrata in Anagrafe."@it ;
