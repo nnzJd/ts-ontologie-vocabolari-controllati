@@ -66,6 +66,9 @@
                                      admsapit:hasKeyClass "https://w3id.org/italia/onto/PRO/Residenza"^^xsd:anyURI ;
                                      admsapit:status "published" ;
                                      dct:title "PRO_IT - Ontologia della Popolazione Registrata in Anagrafe"@it ;
+                                     admsapit:hasSemanticAssetDistribution <https://w3id.org/italia/data/distribution/MUAPIT-RDF-TURTLE> ,
+                                                                           <https://w3id.org/italia/data/distribution/MUAPIT-RDF-XML> ;
+                                                                           
                                      admsapit:hasSemanticAssetDistribution "https://w3id.org/italia/data/distribution/CPVAPIT-RDF-TURTLE"^^xsd:anyURI .
 
 #################################################################
