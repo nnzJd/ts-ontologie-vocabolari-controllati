@@ -45,7 +45,6 @@
                                      dct:publisher "---" ;
                                      dct:title "PRO_IT - Registered Person Ontology"@en ;
                                      rdfs:label "Registered Person Ontology"@en ;
-                                     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TECH> ;
                                      admsapit:hasContributor " ---" ;
                                      dct:creator "https://w3id.org/italia/data/public-organization/ISTAT"^^xsd:anyURI ;
                                      dct:issued "2022-12-15"^^xsd:dateTimeStamp ;
@@ -58,7 +57,7 @@
                                      owl:versionInfo "Versione 1.0"@it ;
                                      admsapit:last "https//w3id.org/italia/onto/PRO/1.0"^^xsd:anyURI ;
                                      rdfs:label "Ontologia della popolazione residente anagrafica."@it ;
-                                     dcat:theme "http://publications.europa.eu/resource/authority/data-theme/SOCI"^^xsd:anyURI ;
+                                     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
                                      rdfs:comment "Questa è l'ontologia della Popolazione Registrata in Anagrafe."@it ;
                                      dct:language "http://publications.europa.eu/resource/authority/language/ITA"^^xsd:anyURI ;
                                      admsapit:hasOntologyLanguage "https://w3id.org/italia/onto/ADMS/OWL"^^xsd:anyURI ;
