@@ -32,9 +32,9 @@
                                      owl:imports <https://w3id.org/italia/onto/CLV> ,
                                                  <https://w3id.org/italia/onto/l0> ;
                                      admsapit:acronym "PRO" ;
-                                     rdfs:isDefinedBy "https://w3id.org/italia/onto/PRO"^^xsd:anyURI ;
-                                     admsapit:hasKeyClass "https://w3id.org/italia/onto/PRO/PersonaAnagraficamenteResidente"^^xsd:anyURI ;
-                                     admsapit:type "https://w3id.org/italia/onto/ADMS/DomainOntology" ;
+                                     rdfs:isDefinedBy <https://w3id.org/italia/onto/PRO> ;
+                                     admsapit:hasKeyClass <https://w3id.org/italia/onto/PRO/PersonaAnagraficamenteResidente> ;
+                                     admsapit:type <https://w3id.org/italia/onto/ADMS/DomainOntology> ;
                                      dcat:contactPoint " ---" ;
                                      admsapit:officialURI "https://w3id.org/italia/onto/PRO"^^xsd:anyURI ;
                                      admsapit:hasTask " ---" ;
@@ -46,7 +46,7 @@
                                      dct:title "PRO_IT - Registered Person Ontology"@en ;
                                      rdfs:label "Registered Person Ontology"@en ;
                                      admsapit:hasContributor " ---" ;
-                                     dct:creator "https://w3id.org/italia/data/public-organization/ISTAT"^^xsd:anyURI ;
+                                     dct:creator <https://w3id.org/italia/data/public-organization/ISTAT> ;
                                      dct:issued "2022-12-15"^^xsd:dateTimeStamp ;
                                      dct:modified "2022-12-15" ;
                                      admsapit:target "Pubbliche Amministrazioni" ;
@@ -59,11 +59,11 @@
                                      rdfs:label "Ontologia della popolazione residente anagrafica."@it ;
                                      dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
                                      rdfs:comment "Questa è l'ontologia della Popolazione Registrata in Anagrafe."@it ;
-                                     dct:language "http://publications.europa.eu/resource/authority/language/ITA"^^xsd:anyURI ;
-                                     admsapit:hasOntologyLanguage "https://w3id.org/italia/onto/ADMS/OWL"^^xsd:anyURI ;
+                                     dct:language <http://publications.europa.eu/resource/authority/language/ITA> ;
+                                     admsapit:hasOntologyLanguage <https://w3id.org/italia/onto/ADMS/OWL> ;
                                      dcat:keyword "Anagrafe"@it ;
                                      admsapit:prefix "pro"^^xsd:string ;
-                                     admsapit:hasKeyClass "https://w3id.org/italia/onto/PRO/Residenza"^^xsd:anyURI ;
+                                     admsapit:hasKeyClass <https://w3id.org/italia/onto/PRO/Residenza> ;
                                      admsapit:status "published" ;
                                      dct:title "PRO_IT - Ontologia della Popolazione Registrata in Anagrafe"@it ;                                 
                                      admsapit:hasSemanticAssetDistribution <https://w3id.org/italia/data/distribution/CPVAPIT-RDF-TURTLE> .
