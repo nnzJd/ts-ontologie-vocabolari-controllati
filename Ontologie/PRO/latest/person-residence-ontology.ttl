@@ -65,7 +65,8 @@
                                      admsapit:prefix "pro"^^xsd:string ;
                                      admsapit:hasKeyClass <https://w3id.org/italia/onto/PRO/Residenza> ;
                                      admsapit:status "published" ;
-                                     dct:title "PRO_IT - Ontologia della Popolazione Registrata in Anagrafe"@it   .
+                                     dct:title "PRO_IT - Ontologia della Popolazione Registrata in Anagrafe"@it ;                                 
+                                     admsapit:hasSemanticAssetDistribution <https://w3id.org/italia/data/distribution/CPVAPIT-RDF-TURTLE> .
 
 #################################################################
 #    Datatypes
@@ -89,6 +90,12 @@ xsd:string rdf:type rdfs:Datatype .
 #    Object Properties
 
 #################################################################
+
+
+<https://w3id.org/italia/data/distribution/CPVAPIT-RDF-TURTLE> 
+                                                               
+                                                             
+                                                               dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/CPV/latest> ;
 
 
 ###  https://w3id.org/italia/onto/PRO/appartieneAFamAnagrafica
