@@ -39,7 +39,7 @@
                                      admsapit:officialURI "https://w3id.org/italia/onto/PRO"^^xsd:anyURI ;
                                      admsapit:hasTask " ---" ;
                                      dct:identifier "https://w3id.org/italia/onto/PRO"^^xsd:anyURI ;
-                                     
+                                     dcat:keyword "Residente"@it ;
                                      rdfs:comment "This is the registered person ontology."@en ;
                                      dct:description "This is the ontology of the population registered in the registry office."@en ;
                                      dct:publisher "---" ;
@@ -61,7 +61,7 @@
                                      rdfs:comment "Questa è l'ontologia della Popolazione Registrata in Anagrafe."@it ;
                                      dct:language <http://publications.europa.eu/resource/authority/language/ITA> ;
                                      admsapit:hasOntologyLanguage <https://w3id.org/italia/onto/ADMS/OWL> ;
-                                     
+                                     dcat:keyword "Anagrafe"@it ;
                                      admsapit:prefix "pro"^^xsd:string ;
                                      admsapit:hasKeyClass <https://w3id.org/italia/onto/PRO/Residenza> ;
                                      admsapit:status "published" ;
@@ -91,12 +91,6 @@ xsd:string rdf:type rdfs:Datatype .
 
 #################################################################
 
-
-<https://w3id.org/italia/data/distribution/CPVAPIT-RDF-TURTLE> 
-                                                               
-                                                               dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
-                                                               dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/CPV/latest> ;
-                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPV/latest/CPV-AP_IT.ttl> .
 
 ###  https://w3id.org/italia/onto/PRO/appartieneAFamAnagrafica
 pro:appartieneAFamAnagrafica rdf:type owl:ObjectProperty ,
