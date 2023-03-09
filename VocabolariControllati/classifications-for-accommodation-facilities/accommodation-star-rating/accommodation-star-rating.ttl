@@ -179,7 +179,6 @@ ndc:keyConcept
       xkos:numberOfLevels "1";
       adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
       dct:identifier "agid:D.3" ;
-      ndc:keyConcept "accommodation-star-rating" ;
       dct:rightsHolder <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> ;
       dct:creator <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid>  , <http://dati.gov.it/data/resource/Amministrazione/td_PCM> ;
       dct:publisher <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid>  ;
