@@ -39,7 +39,7 @@
                                      admsapit:officialURI "https://w3id.org/italia/onto/PRO"^^xsd:anyURI ;
                                      admsapit:hasTask " ---" ;
                                      dct:identifier "https://w3id.org/italia/onto/PRO"^^xsd:anyURI ;
-                                     dcat:keyword "Residente"@it ;
+                                     
                                      rdfs:comment "This is the registered person ontology."@en ;
                                      dct:description "This is the ontology of the population registered in the registry office."@en ;
                                      dct:publisher "---" ;
@@ -61,7 +61,7 @@
                                      rdfs:comment "Questa è l'ontologia della Popolazione Registrata in Anagrafe."@it ;
                                      dct:language <http://publications.europa.eu/resource/authority/language/ITA> ;
                                      admsapit:hasOntologyLanguage <https://w3id.org/italia/onto/ADMS/OWL> ;
-                                     dcat:keyword "Anagrafe"@it ;
+                                     
                                      admsapit:prefix "pro"^^xsd:string ;
                                      admsapit:hasKeyClass <https://w3id.org/italia/onto/PRO/Residenza> ;
                                      admsapit:status "published" ;
